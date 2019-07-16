@@ -1,0 +1,45 @@
+#team{
+  background-color: #f4f4f4;
+}
+
+.our-team > .pic > img{
+    width: 100%;
+    height: auto;
+}
+.our-team > .description{
+    padding:30px;
+    background:#fff;
+    line-height:24px;
+}
+.our-team > .description > .team-prof > h4{
+    font-size:14px;
+    color:#333;
+    text-transform:uppercase;
+    margin:0;
+}
+.our-team > .description > .team-prof > span{
+    font-size:14px;
+    color:#1abc9c;
+    display:block;
+    margin-bottom: 5px;
+}
+.our-team .social-links{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.our-team .social-links > li{
+    display:inline-block;
+    margin-right:5px;
+}
+.our-team .social-links > li > a{
+    color:darkgray;
+}
+.our-team .social-links > li > a:hover{
+    color:#60b0ba;
+}
+@media only screen and (max-width: 990px){
+    .our-team{
+        margin-bottom:25px;
+    };
+}

@@ -1,0 +1,58 @@
+/*
+COLORS
+
+1: #f7444e;
+2: #f7f8f3;
+3: #78bcc4; Dark: #60b0ba;
+4: #002c3e;
+5: For Background 2 #f4f4f4;
+
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+
+*/
+:root {
+  --color-primary: #9097fd;
+  --color-primary-light: #b1b6fe;
+  --color-primary-dark: #6f78fc;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.6;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+
+section {
+    padding: 80px 0;
+}
